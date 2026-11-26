@@ -23,7 +23,7 @@ app.post('/enviarEmail', async (req, res) => {
 
     const payload = {
       from: 'AutoCampa <onboarding@resend.dev>',
-      to: ['philippe.bignaud@motorpacificopremium.es'],
+      to: ['phbignaud@gmail.com'],
       subject: `Pacífico Ocasión — ${tipodoc} ${referencia}`,
       html: `
         <p>Nuevo documento generado en AutoCampa:</p>
